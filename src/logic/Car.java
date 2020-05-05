@@ -1,5 +1,4 @@
 package logic;
-
 public class Car {
 
     String mileAge;
@@ -9,6 +8,7 @@ public class Car {
         this.mileAge = mileAge;
         this.actualSpeed = actualSpeed;
     }
+<<<<<<< HEAD
 
     public String getMileAge() {
         return mileAge;
@@ -26,3 +26,6 @@ public class Car {
         this.actualSpeed = actualSpeed;
     }
 }
+=======
+}
+>>>>>>> 19a82417c1f3409e2920f6611a20c4651d38b857

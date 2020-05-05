@@ -1,5 +1,4 @@
 package logic;
-
 public class Car {
 
     String mileAge;

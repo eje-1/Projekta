@@ -2,14 +2,31 @@ package logic;
 public class Car {
 
     String mileAge;
-    String actualSpeed;
+    String actualSpeed = "5km/h";
 
     public Car(String mileAge, String actualSpeed) {
         this.mileAge = mileAge;
         this.actualSpeed = actualSpeed;
     }
 
-    public void accelerate(){
+    public void accelerate() {
         actualSpeed = "5km/h";
+
     }
+
+        public String getMileAge () {
+            return mileAge;
+        }
+
+        public String getActualSpeed () {
+            return actualSpeed;
+        }
+
+        public void setMileAge (String mileAge){
+            this.mileAge = mileAge;
+        }
+
+        public void setActualSpeed (String actualSpeed){
+            this.actualSpeed = actualSpeed;
+        }
 }
